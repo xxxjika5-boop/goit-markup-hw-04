@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?x093m4');
+  src:  url('fonts/icomoon.eot?x093m4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?x093m4') format('truetype'),
+    url('fonts/icomoon.woff?x093m4') format('woff'),
+    url('fonts/icomoon.svg?x093m4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Facebook:before {
+  content: "\e900";
+  color: #f4f4fd;
+}
+.icon-icon-send:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-instagram:before {
+  content: "\e902";
+  color: #f4f4fd;
+}
+.icon-linkedin:before {
+  content: "\e903";
+  color: #f4f4fd;
+}
+.icon-person-black-18dp-1:before {
+  content: "\e904";
+}
+.icon-person-black-18dp-2:before {
+  content: "\e905";
+  color: #4d5ae5;
+}
+.icon-Property-1click .path1:before {
+  content: "\e906";
+  color: rgb(64, 75, 191);
+}
+.icon-Property-1click .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Property-1click .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(244, 244, 253);
+}
+.icon-Property-1Default .path1:before {
+  content: "\e909";
+  color: rgb(231, 233, 252);
+}
+.icon-Property-1Default .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Property-1Default .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(46, 47, 66);
+}
+.icon-Property-1Variant2 .path1:before {
+  content: "\e90c";
+  color: rgb(64, 75, 191);
+}
+.icon-Property-1Variant2 .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Tviter:before {
+  content: "\e90e";
+  color: #f4f4fd;
+}
+.icon-underscore:before {
+  content: "\e90f";
+  color: #404bbf;
+}
