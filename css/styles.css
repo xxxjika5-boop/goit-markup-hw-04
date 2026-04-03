@@ -519,3 +519,9 @@ h1, h2, h3, h4, h5, h6, p {
 .social-link-footer:focus .social-icon-footer {
     fill: #ffffff;
 }
+.footer-social-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
