@@ -182,15 +182,15 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 24px;
 }
 .features-item-box {
-    border: 1px solid var(--light-slate);
+    border: 1px solid #8E8F99;
     border-radius: 4px;
-    background: var(--cloud);
     display: flex;
-    justify-content: column;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
-    background-color: #f4f4fd;
-    margin: bottom 8px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
 }
 .features-item {
     width: calc((100% - 72px) / 4);
@@ -264,6 +264,34 @@ h1, h2, h3, h4, h5, h6, p {
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+.social-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms ease;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404BBF;
+}
+
+.social-icon {
+    fill: #F4F4FD;
 }
 /* ====== PORTFOLIO ====== */
 .portfolio-list {
